@@ -1,5 +1,5 @@
 //Zad 2
-/*Console.WriteLine("Podaj liczbę 4 cyfrową");
+Console.WriteLine("Podaj liczbę 4 cyfrową");
 int a = int.Parse(Console.ReadLine());
 int b;
 int[]c = new int[4];
@@ -19,10 +19,10 @@ if (a>=1000 && a<=9999)
 else
 {
     Console.WriteLine("To nie jest liczba 4 cyfrowa");
-}*/
+}
 
 //Zad 3
-int n = int.Parse(Console.ReadLine());
+//int n = int.Parse(Console.ReadLine());
 /*for (int i = 0; i < n; i++)
 {
     for (int j = 0; j <= i; j++)
@@ -36,7 +36,7 @@ int n = int.Parse(Console.ReadLine());
     Console.WriteLine();
 
 }*/
-for (int i = 0; i < n; i++)
+/*for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < n-i; j++)
     {
@@ -47,4 +47,4 @@ for (int i = 0; i < n; i++)
         Console.Write("*");
     }
     Console.WriteLine();
-}
+}*/
