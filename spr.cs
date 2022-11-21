@@ -43,3 +43,26 @@ for (int i = 0; i < n/2; i++)
     }
     Console.WriteLine();
 }
+
+//Zad 3 odwrócony
+int n = int.Parse(Console.ReadLine());
+for (int i = 0; i < n / 2; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+for (int i = n; i > 0; i--)
+{
+    for (int j = n-i-1; j >= 0; j--)
+    {
+        Console.Write(" ");
+    }
+    for (int j = i+1; j >= n-i+2; j--)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
